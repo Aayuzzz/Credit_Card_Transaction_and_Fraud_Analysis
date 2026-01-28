@@ -1,9 +1,9 @@
 💳 Credit Card Fraud Detection & Analysis
 📌 Project Overview
 
-This project analyzes credit card transaction data to identify fraudulent behavior and uncover meaningful transaction patterns. The workflow includes data cleaning, exploratory data analysis (EDA), SQL querying, and interactive dashboard visualization using Power BI.
+This project focuses on analyzing credit card transaction data to detect fraudulent activities and uncover meaningful insights. The workflow includes data cleaning, exploratory data analysis (EDA), SQL-based querying, and interactive dashboard development using Power BI.
 
-To make the project lightweight and GitHub-friendly, the dataset was reduced while preserving its analytical value.
+The project is structured for academic submission and portfolio showcasing, emphasizing both analytical depth and clear visualization.
 
 📂 Dataset Details
 
@@ -11,17 +11,17 @@ Original dataset size: ~1.25 million transaction records
 
 Dataset included in this repository: ~15,000 records
 
-🔹 The dataset was reduced to ensure:
+🔹 The dataset was intentionally reduced to:
 
-Smooth performance
+Improve performance
 
-Easy reproducibility
+Ensure easier reproducibility
 
-Compliance with GitHub file size limits
+Make the project GitHub-friendly while still preserving fraud patterns
 
-🔹 The reduced dataset is a sampled subset of the original data and is used only for analysis and visualization showcase purposes.
+🔹 The reduced dataset is a sampled subset of the original data and is used for demonstration and visualization purposes only.
 
-🛠️ Tools & Technologies
+🛠️ Tools & Technologies Used
 
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 
@@ -33,76 +33,63 @@ CSV
 
 Git & GitHub
 
-🔍 Analysis Performed
+🔍 Key Analysis Performed
 
 Data cleaning and preprocessing
 
 Exploratory data analysis (EDA)
 
-Fraud vs non-fraud transaction comparison
+Fraud vs non-fraud transaction analysis
 
-High-value and high-risk transaction analysis
+High-value and high-risk fraud identification
 
 Merchant and category-level fraud analysis
 
 SQL queries for analytical insights
 
-Interactive dashboard design in Power BI
+Interactive Power BI dashboard creation
 
-📊 Dashboard Preview
+📊 Power BI Dashboard
 
-Due to GitHub’s 100 MB file size limit, the Power BI (.pbix) file is not included.
-Instead, dashboard screenshots are provided below.
+The Power BI dashboard (.pbix) included in this repository provides:
 
-🔹 Dashboard using Original (~1.25M records)
+Fraud rate and transaction KPIs
 
-Dashboard/1.25mil_records(1).png
+Merchant-wise and category-wise fraud analysis
 
-Dashboard/1.25mil_records(2).png
+High-value fraud transaction insights
 
-Dashboard/1.25mil_records(3).png
+Time-based transaction trends
 
-🔹 Dashboard using Reduced (~15K records)
+Interactive filters and slicers
 
-Dashboard/15k_records(1).png
-
-Dashboard/15k_records(2).png
-
-Dashboard/15k_records(3).png
-
-These visuals demonstrate that the reduced dataset still preserves key fraud patterns and insights.
+Note: The dashboard uses the reduced (~15K records) dataset to ensure smooth performance.
 
 📁 Project Structure
-├── Dashboard/
-│   ├── 1.25mil_records(1).png
-│   ├── 1.25mil_records(2).png
-│   ├── 1.25mil_records(3).png
-│   ├── 15k_records(1).png
-│   ├── 15k_records(2).png
-│   └── 15k_records(3).png
 ├── credit_card_transactions.csv
 ├── eda.ipynb
 ├── queries.sql
+├── fraud_analysis_dashboard.pbix
 ├── .gitattributes
 └── README.md
 
-🚀 How to Use
+🚀 How to Run This Project
 
 Clone the repository
 
-Open eda.ipynb to explore data cleaning and analysis
+Open eda.ipynb to review data cleaning and EDA steps
 
 Load credit_card_transactions.csv into MySQL or Power BI
 
-Execute SQL queries from queries.sql
+Execute queries from queries.sql for analysis
 
-Refer to dashboard screenshots for visualization insights
+Open the .pbix file in Power BI Desktop to explore the dashboard
 
-⚠️ Note
+⚠️ Disclaimer
 
 The full 1.25M-record dataset is not included due to size constraints
 
-This repository is intended for learning, analysis, and portfolio demonstration
+This project is intended for educational and portfolio purposes only
 
 👤 Author
 
