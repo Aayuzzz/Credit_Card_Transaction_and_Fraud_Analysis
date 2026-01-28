@@ -1,84 +1,110 @@
-💳 Credit Card Fraud Transaction Analysis
+💳 Credit Card Fraud Detection & Analysis
 📌 Project Overview
 
-This project focuses on analyzing credit card transaction data to identify fraud patterns and extract meaningful insights. The dataset was cleaned, explored, and visualized to understand transaction behavior, high-risk merchants, fraud trends, and customer activity.
+This project analyzes credit card transaction data to identify fraudulent behavior and uncover meaningful transaction patterns. The workflow includes data cleaning, exploratory data analysis (EDA), SQL querying, and interactive dashboard visualization using Power BI.
 
-The project is designed for data analysis, SQL practice, and Power BI dashboarding, making it suitable for academic submissions and portfolio showcasing.
+To make the project lightweight and GitHub-friendly, the dataset was reduced while preserving its analytical value.
 
-📂 Dataset Information
+📂 Dataset Details
 
-Original dataset size: ~1.2 million transaction records
+Original dataset size: ~1.25 million transaction records
 
-Dataset used in this repository: ~15,000 records
+Dataset included in this repository: ~15,000 records
 
-🔹 The dataset was intentionally reduced to a smaller subset to ensure:
+🔹 The dataset was reduced to ensure:
 
-Faster loading in GitHub
+Smooth performance
 
-Easier reproducibility
+Easy reproducibility
 
-Smooth performance in Power BI and SQL tools
+Compliance with GitHub file size limits
 
-🔹 The reduced dataset is a random sample of the original data and is used only for demonstration and visualization purposes.
+🔹 The reduced dataset is a sampled subset of the original data and is used only for analysis and visualization showcase purposes.
 
-🛠️ Tools & Technologies Used
+🛠️ Tools & Technologies
 
-Python (Pandas, NumPy)
+Python (Pandas, NumPy, Matplotlib, Seaborn)
 
 SQL / MySQL
 
 Power BI
 
-Excel / CSV
+CSV
 
 Git & GitHub
 
-🔍 Key Analysis Performed
+🔍 Analysis Performed
 
 Data cleaning and preprocessing
 
-Fraud vs non-fraud transaction analysis
+Exploratory data analysis (EDA)
 
-High-value and high-risk transaction identification
+Fraud vs non-fraud transaction comparison
 
-Merchant-level fraud analysis
+High-value and high-risk transaction analysis
 
-Time-based transaction trends
+Merchant and category-level fraud analysis
 
-KPI and visual dashboard creation in Power BI
+SQL queries for analytical insights
 
-📊 Dashboard Features
+Interactive dashboard design in Power BI
 
-Total transactions & fraud rate
+📊 Dashboard Preview
 
-Fraud distribution by merchant and category
+Due to GitHub’s 100 MB file size limit, the Power BI (.pbix) file is not included.
+Instead, dashboard screenshots are provided below.
 
-Transaction amount analysis
+🔹 Dashboard using Original (~1.25M records)
 
-Trend analysis over time
+Dashboard/1.25mil_records(1).png
 
-Interactive slicers and filters
+Dashboard/1.25mil_records(2).png
+
+Dashboard/1.25mil_records(3).png
+
+🔹 Dashboard using Reduced (~15K records)
+
+Dashboard/15k_records(1).png
+
+Dashboard/15k_records(2).png
+
+Dashboard/15k_records(3).png
+
+These visuals demonstrate that the reduced dataset still preserves key fraud patterns and insights.
 
 📁 Project Structure
+├── Dashboard/
+│   ├── 1.25mil_records(1).png
+│   ├── 1.25mil_records(2).png
+│   ├── 1.25mil_records(3).png
+│   ├── 15k_records(1).png
+│   ├── 15k_records(2).png
+│   └── 15k_records(3).png
 ├── credit_card_transactions.csv
-├── queries.sql
-├── Dashboard
-│   └── 1.25mil_records(1)
-│   └── 1.25mil_records(2)
-│   └── 1.25mil_records(3)
-│   └── 15k_records(1)
-│   └── 15k_records(2)
-│   └── 15k_records(3)
 ├── eda.ipynb
+├── queries.sql
+├── .gitattributes
 └── README.md
 
+🚀 How to Use
+
+Clone the repository
+
+Open eda.ipynb to explore data cleaning and analysis
+
+Load credit_card_transactions.csv into MySQL or Power BI
+
+Execute SQL queries from queries.sql
+
+Refer to dashboard screenshots for visualization insights
 
 ⚠️ Note
 
-This repository contains a sampled version of the original dataset.
-The full 1.2M-record dataset is not included due to size limitations and is used only in local analysis.
+The full 1.25M-record dataset is not included due to size constraints
 
-📌 Author
+This repository is intended for learning, analysis, and portfolio demonstration
+
+👤 Author
 
 Aayush Gurung
 BTech CSE Student | Data Analytics & Visualization
